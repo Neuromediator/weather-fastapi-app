@@ -2,9 +2,7 @@
 
 A simple web application built with **FastAPI** that displays the **current weather** and a **3-day forecast** for a selected city using [WeatherAPI](https://www.weatherapi.com/).
 
-## 📸 Preview
 
-![screenshot](./static/screenshot.png) <!-- Optional: add your own screenshot here -->
 
 ## 🚀 Features
 
