@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Form</title>
+</head>
+<body>
+    <h1>Get Weather</h1>
+
+    <!-- Form that sends a GET request to the /weather endpoint -->
+    <form action="/weather" method="get">
+
+        <!-- Input field for the city name. The value will be sent as 'city' query parameter -->
+        <label for="city">Enter city:</label>
+        <input type="text" id="city" name="city" placeholder="e.g. Riga" required>
+
+        <br><br>
+
+        <!-- Submit button for the form -->
+        <button type="submit">Get Weather</button>
+    </form>
+</body>
+</html>
